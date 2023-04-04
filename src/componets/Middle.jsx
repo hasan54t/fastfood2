@@ -1,8 +1,12 @@
 import "../styles/middle.css"
 import styled from 'styled-components'
 
-export default function Middle() {
 
+
+export default function Middle() {
+  const click = () =>{
+    console.log("clicked");
+  }
   return (
    <>
       
